@@ -36,12 +36,11 @@ let song: {
 
 let prices = [100, 200, 300];
 prices[0] = '$100';
-// A:
-
-function myFunc(a: number, b: number): number {}
 // A: you can't reassign a number a value of string.
 // '$100' needs to be changed to '100'
-// 'a' and 'b' are declared but not used
+
+function myFunc(a: number, b: number): number {}
+// A:'a' and 'b' are declared but not used
 // in order to call a function properly, it needs to return something,
 // especially since 'number' is not undefined or void
 
